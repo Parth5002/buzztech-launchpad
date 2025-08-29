@@ -1,8 +1,16 @@
 import { Button } from "@/components/ui/button";
 import { ArrowDown } from "lucide-react";
 import heroBackground from "@/assets/hero-background.jpg";
+import { useTypingEffect } from "@/hooks/useTypingEffect";
 
 const HeroSection = () => {
+  const typingText = useTypingEffect({
+    texts: ["BuzzTech 2025", "Your Idea. Your Hustle. Your Launch."],
+    speed: 150,
+    deleteSpeed: 75,
+    pauseTime: 2000
+  });
+
   const scrollToRegistration = () => {
     document.getElementById('registration')?.scrollIntoView({ behavior: 'smooth' });
   };
@@ -26,24 +34,12 @@ const HeroSection = () => {
       <div className="relative z-10 text-center px-4 max-w-6xl mx-auto">
         <div className="space-y-8">
           <div className="space-y-4">
-            <div className="flex justify-center animate-glow">
-              <img 
-                src="/lovable-uploads/ca005c8a-30f2-452d-83a9-cbfad4309d90.png" 
-                alt="BuzzTech 2025" 
-                className="max-w-full h-auto max-h-32 md:max-h-48 object-contain"
-              />
-            </div>
-            <p className="text-2xl md:text-3xl font-light text-foreground/90 max-w-3xl mx-auto relative">
-              <span 
-                className="inline-block overflow-hidden whitespace-nowrap border-r-2 animate-typing"
-                style={{ 
-                  borderRightColor: 'hsl(var(--primary))',
-                  animation: 'typing 3s steps(40) 1s both, blink 1s infinite'
-                }}
-              >
-                Your Idea. Your Hustle. Your Launch.
+            <h1 className="text-6xl md:text-8xl font-bold text-center animate-glow">
+              <span className="bg-gradient-primary bg-clip-text text-transparent">
+                {typingText}
+                <span className="animate-pulse">|</span>
               </span>
-            </p>
+            </h1>
           </div>
           
           <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
