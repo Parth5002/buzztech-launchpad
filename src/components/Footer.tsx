@@ -37,7 +37,7 @@ const Footer = () => {
                   href="mailto:buzztech@svit.ac.in" 
                   className="text-primary hover:text-primary/80 transition-colors"
                 >
-                  buzztech@svit.ac.in
+                  businessthon2004@gmail.com
                 </a>
               </div>
             </div>
