@@ -1,16 +1,8 @@
 import { Button } from "@/components/ui/button";
 import { ArrowDown } from "lucide-react";
 import heroBackground from "@/assets/hero-background.jpg";
-import { useTypingEffect } from "@/hooks/useTypingEffect";
 
 const HeroSection = () => {
-  const typingText = useTypingEffect({
-    texts: ["BuzzTech 2025", "Your Idea. Your Hustle. Your Launch."],
-    speed: 150,
-    deleteSpeed: 75,
-    pauseTime: 2000
-  });
-
   const scrollToRegistration = () => {
     document.getElementById('registration')?.scrollIntoView({ behavior: 'smooth' });
   };
@@ -36,8 +28,7 @@ const HeroSection = () => {
           <div className="space-y-4">
             <h1 className="text-6xl md:text-8xl font-bold text-center animate-glow">
               <span className="bg-gradient-primary bg-clip-text text-transparent">
-                {typingText}
-                <span className="animate-pulse">|</span>
+                BuzzTech 2025
               </span>
             </h1>
           </div>
