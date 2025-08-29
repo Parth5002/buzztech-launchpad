@@ -33,8 +33,16 @@ const HeroSection = () => {
                 className="max-w-full h-auto max-h-32 md:max-h-48 object-contain"
               />
             </div>
-            <p className="text-2xl md:text-3xl font-light text-foreground/90 max-w-3xl mx-auto">
-              Your Idea. Your Hustle. Your Launch.
+            <p className="text-2xl md:text-3xl font-light text-foreground/90 max-w-3xl mx-auto relative">
+              <span 
+                className="inline-block overflow-hidden whitespace-nowrap border-r-2 animate-typing"
+                style={{ 
+                  borderRightColor: 'hsl(var(--primary))',
+                  animation: 'typing 3s steps(40) 1s both, blink 1s infinite'
+                }}
+              >
+                Your Idea. Your Hustle. Your Launch.
+              </span>
             </p>
           </div>
           

@@ -100,6 +100,14 @@ export default {
 					to: {
 						height: '0'
 					}
+				},
+				'typing': {
+					'0%': { width: '0' },
+					'100%': { width: '100%' }
+				},
+				'blink': {
+					'0%, 50%': { 'border-color': 'transparent' },
+					'51%, 100%': { 'border-color': 'hsl(var(--primary))' }
 				}
 			},
 			animation: {
@@ -108,6 +116,8 @@ export default {
 				'float': 'float 6s ease-in-out infinite',
 				'glow': 'glow 2s ease-in-out infinite alternate',
 				'pulse-slow': 'pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+				'typing': 'typing 3s steps(40) 1s both',
+				'blink': 'blink 1s infinite',
 			}
 		}
 	},
