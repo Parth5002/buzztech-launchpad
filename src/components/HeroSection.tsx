@@ -26,9 +26,13 @@ const HeroSection = () => {
       <div className="relative z-10 text-center px-4 max-w-6xl mx-auto">
         <div className="space-y-8">
           <div className="space-y-4">
-            <h1 className="text-6xl md:text-8xl font-bold font-display bg-gradient-primary bg-clip-text text-transparent animate-glow">
-              BuzzTech 2025
-            </h1>
+            <div className="flex justify-center animate-glow">
+              <img 
+                src="/lovable-uploads/ca005c8a-30f2-452d-83a9-cbfad4309d90.png" 
+                alt="BuzzTech 2025" 
+                className="max-w-full h-auto max-h-32 md:max-h-48 object-contain"
+              />
+            </div>
             <p className="text-2xl md:text-3xl font-light text-foreground/90 max-w-3xl mx-auto">
               Your Idea. Your Hustle. Your Launch.
             </p>
