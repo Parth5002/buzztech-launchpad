@@ -12,7 +12,7 @@ const RegistrationSection = () => {
   });
 
   useEffect(() => {
-    const targetDate = new Date('2025-09-01T23:59:59');
+    const targetDate = new Date('2025-09-05T23:59:59');
     
     const updateCountdown = () => {
       const now = new Date().getTime();
