@@ -4,13 +4,13 @@ const timelineEvents = [
   {
     icon: Circle,
     title: "Registrations Open",
-    description: "Till 1st September 2025",
+    description: "Till 5th September 2025",
     status: "current"
   },
   {
     icon: Users,
     title: "Team Formation",
-    description: "Confirm your teams (3-5 members)",
+    description: "Confirm your teams of max 5 members",
     status: "upcoming"
   },
   {
