@@ -31,15 +31,37 @@ const Footer = () => {
               <p className="text-muted-foreground text-sm">
                 © 2025 BuzzTech. All rights reserved.
               </p>
-              <div className="flex items-center space-x-2 text-sm text-muted-foreground">
-                <span>Contact:</span>
-                <a 
-                  href="mailto:buzztech@svit.ac.in" 
-                  className="text-primary hover:text-primary/80 transition-colors"
-                >
-                  businessthon2004@gmail.com
-                </a>
-              </div>
+              <div className="flex items-center space-x-4 text-sm text-muted-foreground">
+  <span>Contact:</span>
+
+  {/* Email */}
+  <a 
+    href="mailto:businessthon2004@gmail.com" 
+    className="text-primary hover:text-primary/80 transition-colors"
+  >
+    businessthon2004@gmail.com
+  </a>
+
+  {/* Instagram */}
+  <a 
+    href="https://www.instagram.com/buzz.tech2025/" 
+    target="_blank" 
+    rel="noopener noreferrer"
+    className="text-primary hover:text-primary/80 transition-colors"
+  >
+    Instagram
+  </a>
+
+  {/* LinkedIn */}
+  <a 
+    href="https://www.linkedin.com/company/buzz-tech2025/about/" 
+    target="_blank" 
+    rel="noopener noreferrer"
+    className="text-primary hover:text-primary/80 transition-colors"
+  >
+    LinkedIn
+  </a>
+</div>
             </div>
           </div>
         </div>
