@@ -4,7 +4,7 @@ const timelineEvents = [
   {
     icon: Circle,
     title: "Registrations Open",
-    description: "Till 1st September 2025",
+    description: "Till 6st September 2025",
     status: "current"
   },
   {

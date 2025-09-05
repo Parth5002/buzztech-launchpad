@@ -12,7 +12,7 @@ const RegistrationSection = () => {
   });
 
   useEffect(() => {
-    const targetDate = new Date('2025-09-01T23:59:59');
+    const targetDate = new Date('2025-09-06T21:59:59');
     
     const updateCountdown = () => {
       const now = new Date().getTime();
@@ -79,7 +79,7 @@ const RegistrationSection = () => {
               
               <div className="flex items-center justify-center space-x-2 text-destructive font-semibold">
                 <Calendar className="h-5 w-5" />
-                <span>Register before 1st September 2025!</span>
+                <span>Register before 6st September 2025!</span>
               </div>
             </CardContent>
           </Card>
