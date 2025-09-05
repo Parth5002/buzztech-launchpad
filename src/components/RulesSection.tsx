@@ -40,7 +40,7 @@ const RulesSection = () => {
             </CardHeader>
             <CardContent>
               <p className="text-muted-foreground text-lg leading-relaxed">
-                Form teams of 3-5 members. Mix different skills - developers, designers, business minds. 
+                Form teams of max 5 members. Mix different skills - developers, designers, business minds. 
                 Diversity in skills leads to stronger solutions.
               </p>
             </CardContent>
